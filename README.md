@@ -1,4 +1,4 @@
-# Dashboard SG-SST IMA Company SAS - Streamlit
+# Dashboard SG-SST IMA Company SAS
 
 Aplicación Streamlit para visualizar los instrumentos digitales del SG-SST construidos en Excel/Google Sheets: presupuesto, formación, autodiagnóstico Res. 0312/2019, plan anual PHVA, matriz legal, reportes laborales, proveedores, EMO, accidentalidad, enfermedad laboral, indicadores, matriz de peligros GTC-45, mantenimiento preventivo y APCM.
 
@@ -35,13 +35,3 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Publicación en Streamlit Community Cloud
-
-1. Crear un repositorio en GitHub y subir todos los archivos de esta carpeta.
-2. Ingresar a https://share.streamlit.io/ con la cuenta de GitHub.
-3. Seleccionar el repositorio, rama y archivo principal `app.py`.
-4. Deploy.
-
-## Nota de protección de datos
-
-Antes de subir el repositorio a GitHub o publicarlo en Streamlit Community Cloud, anonimiza datos personales, documentos de identidad, teléfonos, correos, diagnósticos, restricciones médicas y cualquier información sensible. Si el repositorio es público, los archivos de la carpeta `data/` también pueden quedar expuestos.
